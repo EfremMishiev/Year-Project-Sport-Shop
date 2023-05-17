@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Efraim\'s Project</string>
+    <string name="add">Add</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_my_guest">Welcome my guest</string>
+    <string name="this_application_is_made_for_the_sale_of_sports_equipment_and_for_the_development_of_sales_in_our_country_also_this_application_makes_life_easier_for_many_people_because_they_can_simply_order_what_they_want_regardless_of_their_distance_and_also_save_their_time_on_a_trip_and_searching_for_goods"><![CDATA[This application is made for the sale of sports equipment and for the development of sales in our country, also this application makes life easier for many people because they can simply order what they want, regardless of their distance, and also save their time on a trip and searching for goods.]]></string>
+</resources>

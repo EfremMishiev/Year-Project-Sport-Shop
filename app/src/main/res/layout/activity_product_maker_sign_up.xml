@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductMakerSignUp"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/PMsignUpButton"
+        android:layout_width="177dp"
+        android:layout_height="88dp"
+        android:onClick="PMsignUpClick"
+        android:text="Sign Up"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <EditText
+        android:id="@+id/newUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext"
+        app:layout_constraintBottom_toBottomOf="@+id/newUsernameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/newUsernameText"
+        app:layout_constraintTop_toTopOf="@+id/newUsernameText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/newUsernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Username:"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/PMsignUpButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/newPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Password:"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/PMsignUpButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/edittext"
+        app:layout_constraintBottom_toBottomOf="@+id/newPasswordText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toEndOf="@+id/newPasswordText"
+        app:layout_constraintTop_toTopOf="@+id/newPasswordText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <CheckBox
+        android:id="@+id/PMcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save data?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/PMsignUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/edittext"
+        app:layout_constraintVertical_bias="0.496"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

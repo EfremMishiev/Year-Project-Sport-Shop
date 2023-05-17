@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/n1"
+        android:icon="@drawable/ic_baseline_sports_basketball_24"
+        android:orderInCategory="200"
+        android:title="Main"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/n2"
+        android:orderInCategory="200"
+        android:title="Shop"
+        />
+
+    <item
+        android:id="@+id/n3"
+        android:orderInCategory="200"
+        android:title="About us"
+        />
+    <item
+        android:id="@+id/n4"
+        android:orderInCategory="200"
+        android:title="Temperature"
+        />
+    <item
+        android:id="@+id/n5"
+        android:orderInCategory="200"
+        android:title="Sport Legends"
+        />
+</menu>

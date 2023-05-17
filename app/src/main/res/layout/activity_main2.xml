@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_my_guest"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:text="@string/this_application_is_made_for_the_sale_of_sports_equipment_and_for_the_development_of_sales_in_our_country_also_this_application_makes_life_easier_for_many_people_because_they_can_simply_order_what_they_want_regardless_of_their_distance_and_also_save_their_time_on_a_trip_and_searching_for_goods"
+        />
+</LinearLayout>

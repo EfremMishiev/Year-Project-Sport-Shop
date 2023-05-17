@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pm"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center_horizontal"
+        android:text="Product Maker"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PMloginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="login"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="PMloginClick">
+    </Button>
+
+    <Button
+        android:id="@+id/PMsignUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/black"
+        android:onClick="PMsignUpClick">
+    </Button>
+
+
+</LinearLayout>
